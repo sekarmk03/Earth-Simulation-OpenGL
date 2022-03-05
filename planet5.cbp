@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="planet5" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/planet5" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/lib/libgdi32.a" />
+					<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/lib/libglfw3.a" />
+					<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/lib/libglfw3dll.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/planet5" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/lib/libgdi32.a" />
+					<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/lib/libglfw3.a" />
+					<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/lib/libglfw3dll.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/lib/libgdi32.a" />
+			<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/lib/libglfw3.a" />
+			<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/lib/libglfw3dll.a" />
+		</Linker>
+		<Unit filename="Shader.h" />
+		<Unit filename="earth.jpg" />
+		<Unit filename="glad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="heightMap.png" />
+		<Unit filename="main.cpp" />
+		<Unit filename="planet5.cbp" />
+		<Unit filename="shader.fs" />
+		<Unit filename="shader.gs" />
+		<Unit filename="shader.vs" />
+		<Unit filename="shaderSkybox.fs" />
+		<Unit filename="shaderSkybox.vs" />
+		<Unit filename="specularMap.png" />
+		<Unit filename="stars.jpg" />
+		<Unit filename="stb_image.h" />
+		<Unit filename="stb_image_includer.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

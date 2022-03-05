@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1634376312 source:d:\code21\grafikom\planet5\glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<winapifamily.h>
+	<dlfcn.h>
+
+1640659288 source:d:\code21\grafikom\planet5\main.cpp
+	"glad/glad.h"
+	"GLFW/glfw3.h"
+	"Shader.h"
+	"stb_image.h"
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+	<iostream>
+	<vector>
+
+1634572970 d:\code21\grafikom\planet5\shader.h
+	<glad/glad.h>
+	"glm/glm.hpp"
+	"glm/gtc/matrix_transform.hpp"
+	"glm/gtc/type_ptr.hpp"
+	<string>
+	<fstream>
+	<sstream>
+	<iostream>
+
+1634572970 d:\code21\grafikom\planet5\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1634572970 source:d:\code21\grafikom\planet5\stb_image_includer.cpp
+	"stb_image.h"
+
